@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 gem 'bootstrap-sass', '2.3.2.0'
 # Use jquery as the JavaScript library
+gem 'bcrypt-ruby', '3.1.2'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -29,6 +30,7 @@ gem 'spring',        group: :development
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'minitest-reporters'
 end
 
 group :production do
