@@ -32,6 +32,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :test
 
   # Print deprecation notices to the stderr.
+  ActiveModel::SecurePassword.min_cost = true
   config.active_support.deprecation = :stderr
 
   # Raises error for missing translations
