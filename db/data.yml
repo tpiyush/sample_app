@@ -1,0 +1,111 @@
+
+---
+users:
+  columns:
+  - id
+  - name
+  - email
+  - created_at
+  - updated_at
+  - password_digest
+  - remember_token
+  - admin
+  records: 
+  - - 1
+    - piyush
+    - piyush.tiwari@1mg.com
+    - '2016-06-16 10:57:03.044391'
+    - '2016-06-20 10:33:32.436886'
+    - "$2a$10$EJBeFRXeg2/Yz5TntawEyuOw0MFgUBCASB86W54dbkL5mwkrvved2"
+    - 233747100582404f185a51bb877fdcd09fb6d577
+    - false
+  - - 2
+    - angel
+    - angel@gmail.com
+    - '2016-06-16 11:31:35.087669'
+    - '2016-06-16 11:31:35.087669'
+    - "$2a$10$H8j1DHKTQfBLotbjkOcgq.BAGfvuCAe7LjTCMZj3QM.h3kT9JIKLe"
+    - 
+    - false
+  - - 3
+    - aka
+    - aka@gma.co
+    - '2016-06-16 11:35:08.540991'
+    - '2016-06-20 00:57:04.387243'
+    - "$2a$10$yNMNqCrp1kH4cWXGeN52BOJ8i7efG1u6sAsjtx4Ja4vWiTrgW9JyW"
+    - 
+    - false
+  - - 4
+    - ufwi gi
+    - vbd@gyds.vnio
+    - '2016-06-20 07:12:48.797381'
+    - '2016-06-20 07:12:48.797381'
+    - "$2a$10$f8n4FN16rnbNgwnqKzPmJuI7dfexu9UQMO6J0hdoxLL9xhhEsJTpK"
+    - aec782dbe1426362bf1765633b76419126a34caf
+    - false
+  - - 5
+    - Vijender
+    - v@g.com
+    - '2016-06-20 07:13:37.069089'
+    - '2016-06-20 09:09:16.995454'
+    - "$2a$10$OUNl48rItPyRJrR4Wdu7JeFvw77sqI2I7XuN0ApJnGPZixsDSHMFq"
+    - 5ac94ce72ad980d79db808850b59674028f61dd2
+    - false
+  - - 6
+    - himanshu jain
+    - himanshu.jain1@1mg.com
+    - '2016-06-20 09:24:38.736249'
+    - '2016-06-20 10:33:20.563606'
+    - "$2a$10$CPcSEQ8./za4g7YHUJ3zKu.I8FWjCP7wq50JwyoHYyIk56B6zxbce"
+    - 45c566ff0bc2f8d1d90d10a211ec1bc1eb3ebbb6
+    - false
+
+---
+microposts:
+  columns:
+  - id
+  - content
+  - user_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - fuck offf
+    - 1
+    - '2016-06-20 06:41:12.798789'
+    - '2016-06-20 06:41:12.798789'
+  - - 2
+    - Fidcd
+    - 5
+    - '2016-06-20 07:14:12.360944'
+    - '2016-06-20 07:14:12.360944'
+  - - 3
+    - djbjc
+    - 5
+    - '2016-06-20 07:15:39.506775'
+    - '2016-06-20 07:15:39.506775'
+  - - 4
+    - "rdas y\r\n"
+    - 5
+    - '2016-06-20 07:17:22.647694'
+    - '2016-06-20 07:17:22.647694'
+  - - 5
+    - hinkm
+    - 6
+    - '2016-06-20 09:28:29.834963'
+    - '2016-06-20 09:28:29.834963'
+  - - 6
+    - hvjhv
+    - 6
+    - '2016-06-20 09:28:37.868894'
+    - '2016-06-20 09:28:37.868894'
+  - - 7
+    - asas
+    - 6
+    - '2016-06-20 09:57:47.888055'
+    - '2016-06-20 09:57:47.888055'
+  - - 8
+    - 'hvm '
+    - 6
+    - '2016-06-20 09:57:56.499778'
+    - '2016-06-20 09:57:56.499778'

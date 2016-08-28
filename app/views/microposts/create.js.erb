@@ -1,0 +1,4 @@
+$('#micropost_content').val("");
+$("#feed_list").html("<%= escape_javascript(render partial: ('shared/feed')) %>")
+$("#info").html("<%= escape_javascript(render partial: ('shared/user_info')) %>")
+$("#flash").html("<div class='alert alert-success'>Micropost Created</div>");
